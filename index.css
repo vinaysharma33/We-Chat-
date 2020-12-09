@@ -1,0 +1,129 @@
+*{
+    background-color:violet;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 482px;
+    margin-top: 35px;
+}
+
+.container{
+    overflow-y: scroll;
+    background-color: lightyellow;
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    box-shadow: 15px 15px 15px black;
+}
+
+.other{
+    font-family: 'Balsamiq Sans', cursive;
+    float: left;
+    clear: both;
+    margin: 14px 15px;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.me{
+    font-family: 'Balsamiq Sans', cursive;
+    float: right;
+    clear: both;
+    margin: 14px 15px;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#logo{
+    height: 50px;
+    width: 84px;
+    display: block;
+    margin: auto;
+}
+#title{
+    display: block;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: auto;
+}
+
+#message{
+     height: 25px;
+     width: 511px;
+     margin-top: 8px;
+     background-color: white;
+     border-radius: 6px;
+
+}
+
+#btn{
+    font-family: 'Balsamiq Sans', cursive;
+     cursor: pointer;
+     background-color: gray;
+     height: 27px;
+     width: 49px;
+     border-radius: 6px;
+}
+
+#form{
+    font-family: 'Balsamiq Sans', cursive;
+    display:block;
+    margin:auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#btn:hover{
+    background-color: darkgray;
+}
+
+.message.right{
+    font-family: 'Balsamiq Sans', cursive;
+    float: right;
+    clear: both;
+    margin: 14px 15px;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.message.left{
+    font-family: 'Balsamiq Sans', cursive;
+    float: left;
+    clear: both;
+    margin: 14px 15px;
+    border: 3px solid black;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+@media(max-width:570px){
+    #message{
+        width: 470px;
+        margin-left: 60px;
+    }
+
+    #btn{
+        margin-left: 58px;
+        margin-top: 10px;
+    }
+} 
+
+@media (max-width:515px){
+    #btn{
+        margin-left: 255px;
+        margin-top: 10px;
+    }
+}
